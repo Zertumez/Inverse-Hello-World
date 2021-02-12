@@ -6,7 +6,13 @@ namespace Inverse_Hello_World
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] helloworld = {"H", "e", "l", "l", "o", " ", "W", "o", "r", "l", "d", "!"};
+
+            for (int i = 11; i > -1; i--)
+            {
+                Console.Write(helloworld[i]);
+            }
+
         }
     }
 }
